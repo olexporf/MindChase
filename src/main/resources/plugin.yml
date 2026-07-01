@@ -1,0 +1,18 @@
+name: MindChase
+version: 1.0.0
+main: org.olexporf.mindchase.MindChase
+api-version: '1.26'
+commands:
+  mc:
+    description: "Game control (operator only)"
+    permission: op
+    usage: /mc start | /mc stop
+  im:
+    description: "Hunters-exclusive chat"
+    usage: /im <message>
+  alert:
+    description: "Triggers an alarm at your coordinates"
+    usage: /alert
+  yo:
+    description: "A message saying that you're lost and need coordinates"
+    usage: /yo
